@@ -45,9 +45,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ml-auto">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
+                <!-- <a class="nav-link" href="#">Home</a> -->
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
+                <a class="nav-link" href="#footer">Contact</a>
               </div>
             </div>
           </nav>
@@ -57,7 +59,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h1>Meet new and interesting cats nearby.</h1>
+            <h1 class="main-heading">Meet new and interesting cats nearby.</h1>
             <button
               type="button"
               class="btn btn-outline-secondary btn-lg download-btn"
@@ -82,29 +84,31 @@
     <!-- Features -->
 
     <section id="features">
-      <div class="row">
-        <div class="feature-box col-lg-3">
-          <i class="icons fas fa-paw fa-5x"></i>
-          <h3>Simple to use.</h3>
-          <!-- <p>So simple to use, even your cat could do it.</p> -->
-        </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-3">
+            <i class="icons fas fa-paw fa-5x"></i>
+            <h3 class="feature-titles">Simple to use.</h3>
+            <!-- <p>So simple to use, even your cat could do it.</p> -->
+          </div>
 
-        <div class="feature-box col-lg-3">
-          <i class="icons fas fa-cat fa-5x"></i>
-          <h3>Elite Cats.</h3>
-          <!-- <p>Only the most elegant breed.</p> -->
-        </div>
+          <div class="feature-box col-lg-3">
+            <i class="icons fas fa-cat fa-5x"></i>
+            <h3 class="feature-titles">Elite Cats.</h3>
+            <!-- <p>Only the most elegant breed.</p> -->
+          </div>
 
-        <div class="feature-box col-lg-3">
-          <i class="icons fas fa-chart-line fa-5x"></i>
-          <h3>High success rate.</h3>
-          <!-- <p>Your cat will find love for all "9 lives".</p> -->
-        </div>
+          <div class="feature-box col-lg-3">
+            <i class="icons fas fa-chart-line fa-5x"></i>
+            <h3 class="feature-titles">High success rate.</h3>
+            <!-- <p>Your cat will find love for all "9 lives".</p> -->
+          </div>
 
-        <div class="feature-box col-lg-3">
-          <i class="icons fas fa-heart fa-5x"></i>
-          <h3>February discount.</h3>
-          <!-- <p>40% Discount Every February.</p> -->
+          <div class="feature-box col-lg-3">
+            <i class="icons fas fa-heart fa-5x"></i>
+            <h3>February discount.</h3>
+            <!-- <p>40% Discount Every February.</p> -->
+          </div>
         </div>
       </div>
     </section>
@@ -120,8 +124,8 @@
         data-interval="3000"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
               I no longer have to scratch my owner's furniture in February. I've
               found the hottest cat in the world! purrrfect.
             </h2>
@@ -132,7 +136,7 @@
             />
             <em>Mr. Bubbles, Texas</em>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item container-fluid">
             <h2 class="testimonial-text">
               My cat used to be so lonely, but with purrrfect's help, they've
               found the love of their life.
@@ -182,7 +186,7 @@
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Cat's Needs</h2>
+      <h2 class="section-headings">A Plan for Every Cat's Needs</h2>
       <p>Simple and affordable price plans for your and your cat.</p>
 
       <div class="row">
@@ -190,7 +194,7 @@
           <div class="card">
             <div class="card-header"><h3>Silver</h3></div>
             <div class="card-body">
-              <h2>Free</h2>
+              <h2 class="pricing-text">Free</h2>
               <p>12 Matches Per Day</p>
               <p>20 Messages Per Day</p>
               <p>Unlimited App Usage Time</p>
@@ -208,7 +212,7 @@
           <div class="card">
             <div class="card-header"><h3>Gold</h3></div>
             <div class="card-body">
-              <h2>$29 / mo</h2>
+              <h2 class="pricing-text">$29 / mo</h2>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
@@ -226,7 +230,7 @@
           <div class="card">
             <div class="card-header"><h3>Platinum</h3></div>
             <div class="card-body">
-              <h2>$49 / mo</h2>
+              <h2 class="pricing-text">$49 / mo</h2>
               <p>Pirority Listing</p>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
@@ -242,6 +246,43 @@
         </div>
       </div>
     </section>
+    <hr />
+
+    <!-- Call to action section -->
+
+    <section id="call">
+      <div class="container-fluid">
+        <h3 class="main-heading">
+          Find the True Love of Your Cat's Life Today.
+        </h3>
+        <button
+          class="btn btn-outline-secondary btn-lg download-btn"
+          type="button"
+        >
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button
+          class="btn btn-outline-secondary btn-lg download-btn"
+          type="button"
+        >
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <i class="social-media fab fa-facebook-square"></i>
+        <i class="social-media fab fa-instagram-square"></i>
+        <i class="social-media fab fa-twitter-square"></i>
+        <i class="social-media fab fa-github-square"></i>
+        <i class="social-media fas fa-envelope-square"></i>
+        <p>© 2020 purrrfect.</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

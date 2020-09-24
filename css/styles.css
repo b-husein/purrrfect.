@@ -1,21 +1,12 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
+h1,
+h2,
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 
 p {
@@ -30,7 +21,25 @@ hr {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 7% 15%;
+}
+
+/* ALL HEADINGS */
+
+.main-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-headings {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 7% 15%;
 }
 
 #brand {
@@ -60,15 +69,14 @@ hr {
   margin: 5% 4% 5% 0;
 }
 
-/* FEATURES */
-
-#features {
-  padding: 7% 15%;
-}
+/* FEATURES SECTION */
 
 .feature-box {
-  text-align: center;
   padding: 7%;
+}
+
+.feature-titles {
+  font-size: 1.5rem;
 }
 
 .icons {
@@ -79,11 +87,7 @@ hr {
   color: #6c757d;
 }
 
-/* Testimonials */
-
-#testimonials {
-  text-align: center;
-}
+/* TESTIMONIALS SECTION */
 
 .testimonial-image {
   width: 30%;
@@ -91,21 +95,41 @@ hr {
   margin: 30px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .carousel-control-prev-icon {
   color: #000;
 }
 
-/* Pricing section */
+/* PRICING SECTION */
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+
+.social-media {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    display: none;
+  }
 }
