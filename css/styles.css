@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
@@ -123,13 +127,5 @@ hr {
 
 .social-media {
   margin: 20px 10px;
-}
-
-@media (max-width: 1000px) {
-  #title {
-    text-align: center;
-  }
-  .title-img {
-    display: none;
-  }
+  font-size: 3rem;
 }

@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    display: none;
+  }
+}
