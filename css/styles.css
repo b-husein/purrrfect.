@@ -98,3 +98,14 @@ hr {
 .carousel-control-prev-icon {
   color: #000;
 }
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
