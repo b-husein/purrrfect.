@@ -1,8 +1,32 @@
 @media (max-width: 1000px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .section-headings {
+    font-size: 2rem;
+  }
+
   #title {
     text-align: center;
   }
   .title-img {
     display: none;
+  }
+
+  .icons {
+    font-size: 2rem;
+  }
+  .feature-titles {
+    font-size: 1.3rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .pricing-text {
+    font-size: 1.3rem;
   }
 }
