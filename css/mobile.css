@@ -1,10 +1,18 @@
 @media (max-width: 1000px) {
+  hr {
+    margin: 10px auto;
+  }
+
   .main-heading {
     font-size: 2rem;
   }
 
   .section-headings {
     font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
   }
 
   #title {
@@ -24,6 +32,10 @@
   .testimonial-text {
     font-size: 1.3rem;
     line-height: 1;
+  }
+
+  #pricing {
+    padding: 3rem;
   }
 
   .pricing-text {
