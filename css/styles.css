@@ -128,4 +128,10 @@ hr {
 .social-media {
   margin: 20px 10px;
   font-size: 3rem;
+  color: #6c757d;
+}
+
+.p-text {
+  font-size: 1.2rem;
+  color: #6c757d;
 }
